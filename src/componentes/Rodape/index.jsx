@@ -5,6 +5,7 @@ const Rodape = ({ paginas, paginaAtual, setPaginaAtual }) => {
   return(
     <footer className={styles.rodape} >
       <button 
+        ariaLabel="Próximo"
         onClick={() => (
           paginaAtual <= 0 
             ? setPaginaAtual(0) 
@@ -13,7 +14,8 @@ const Rodape = ({ paginas, paginaAtual, setPaginaAtual }) => {
 
       <span>{paginaAtual + 1} de {paginas}</span>
 
-      <button 
+      <button
+        ariaLabel="Anterior" 
         onClick={() => (
           paginaAtual >= (paginas - 1) 
             ? setPaginaAtual(paginas - 1) 
