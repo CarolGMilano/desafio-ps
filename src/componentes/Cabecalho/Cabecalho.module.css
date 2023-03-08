@@ -1,0 +1,23 @@
+.cabecalho {
+  display: flex;
+  width: 100%;
+}
+
+.cabecalho ul {
+  padding: 2rem;
+  border-bottom: 1px solid var(--cinzaBorda);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.cabecalho li {
+  color: var(--branco);
+  opacity: .7;
+  width: 110px;
+}
+
+.cabecalho li:first-child {
+  width: 140px;
+}

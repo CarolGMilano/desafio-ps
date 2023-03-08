@@ -1,0 +1,36 @@
+.rodape {
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 25px;
+  column-gap: 5rem;
+}
+
+.rodape span {
+  color: var(--branco);
+  font-size: 15px;
+  
+}
+
+.rodape button:first-child {
+  transform: rotate(180deg);
+}
+
+.rodape button {
+  width: 40px;
+  height: 30px;
+  border: none;
+  padding: .5rem; 
+  background: url("./seta.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transition: .3s;
+}
+
+.rodape button:hover {
+  cursor: pointer;
+  background-color: var(--cinzaEscuroHover);
+  border-radius: 8px;
+}

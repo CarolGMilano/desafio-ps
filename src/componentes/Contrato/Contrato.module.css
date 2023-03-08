@@ -1,0 +1,38 @@
+.contrato {
+  display: flex; 
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid var(--cinzaBorda);
+  color: var(--branco);
+}
+
+.contrato a {
+  color: var(--branco);
+  text-decoration: none;
+  transition: .3s;
+  font-size: 12px;
+  width: 110px;
+  display: flex;
+}
+
+.contrato a:first-child {
+  align-items: center;
+  column-gap: .3rem;
+  width: 140px;
+}
+
+.contrato a img {
+  width: 18px;
+}
+
+.contrato a:hover {
+  text-decoration: underline;
+  opacity: .7;
+  cursor: pointer;
+}
+
+.contrato p {
+  width: 110px;
+}
